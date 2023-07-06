@@ -22,8 +22,6 @@ rm -rf feeds/packages/net/v2ray-core
 rm -rf feeds/packages/net/v2ray-plugin
 rm -rf feeds/packages/net/xray-core
 rm -rf feeds/packages/net/xray-plugin
-rm -rf feeds/packages/lang/golang
-svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
 sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
