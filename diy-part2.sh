@@ -22,5 +22,4 @@ git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
 git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
-git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
