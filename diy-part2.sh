@@ -23,6 +23,5 @@ git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/l
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
-git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
-git clone https://github.com/xiaorouji/openwrt-passwall-packages package/pswcore
+git clone https://github.com/fw876/helloworld package/hw
 git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
