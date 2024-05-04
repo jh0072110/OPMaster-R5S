@@ -16,6 +16,7 @@ rm -rf feeds/luci/applications/luci-app-openclash
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-alist
 rm -rf feeds/luci/applications/luci-app-ddns-go
+rm -rf feeds/luci/applications/luci-app-homeproxy
 rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/packages/net/mosdns
 rm -rf feeds/packages/net/alist
@@ -29,3 +30,4 @@ git clone -b main https://github.com/xiaorouji/openwrt-passwall package/psw
 git clone https://github.com/xiaorouji/openwrt-passwall-packages package/pswcore
 git clone https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
+git clone https://github.com/immortalwrt/homeproxy package/homeproxy
